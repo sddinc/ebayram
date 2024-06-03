@@ -1,0 +1,30 @@
+export const courses =[
+    {
+        id:123,
+        title:"arduino",
+        description:"dhkfdhg",
+        price:"23",
+        link:"https://www.mhprofessional.com/media/catalog/product/cache/84c63a40cf0771f03c9446b22a7e0f08/9/7/9781260122022_242.jpeg",
+    },
+    {
+        id:123,
+        title:"arduino",
+        description:"fsdf",
+        price:"600",
+        link:"https://www.mhprofessional.com/media/catalog/product/cache/84c63a40cf0771f03c9446b22a7e0f08/9/7/9781260122022_242.jpeg",
+    },
+    {
+        id:123,
+        title:"arduino",
+        description:"weret",
+        price:"500",
+        link:"https://www.mhprofessional.com/media/catalog/product/cache/84c63a40cf0771f03c9446b22a7e0f08/9/7/9781260122022_242.jpeg",
+    },
+    {
+        id:123,
+        title:"arduino",
+        description:"ertert",
+        price:"300",
+        link:"https://www.mhprofessional.com/media/catalog/product/cache/84c63a40cf0771f03c9446b22a7e0f08/9/7/9781260122022_242.jpeg",
+    }
+]
