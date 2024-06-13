@@ -5,16 +5,21 @@ import './App.css'
 import { courses } from './components/Data'
 import Course from './components/Course'
 import Axios from './components/Axiosget'
-import Axiospost from './components/Axiospost'
+import Quote from './components/Qoute'
+
 
 function App() {
   
+  
+  const myTheme="hero bilo";
 
   return (
     <div>
-      <Header/>
+      <Header/> 
+      <Quote/>
       <Axios/>
-      <Axiospost/>
+     
+      
       {
         courses?.map((course)=>(
           <Course key={course.id} course={course}/>
