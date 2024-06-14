@@ -6,6 +6,7 @@ import { courses } from './components/Data'
 import Course from './components/Course'
 import Axios from './components/Axiosget'
 import Quote from './components/Qoute'
+import MyForm from './components/MyForm'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div>
+      <MyForm/>
       <Header/> 
       <Quote/>
       <Axios/>
