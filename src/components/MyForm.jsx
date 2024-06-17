@@ -1,5 +1,5 @@
 import MyData from './MyData';
-import {Link, Routes} from 'react-router-dom';
+import {Link, Routes,Route} from 'react-router-dom';
 import React, { useState } from 'react';
 export default function Form() {
 const [form,setform]=useState({name:'',city:'',birthDate:''});
@@ -22,12 +22,7 @@ const handleChange=(event)=>{
         <Link to="./MyData"> <button>send</button></Link>
         <hr></hr>
       </form>
-      <Routes>
-  <Route path="/" element={<Dashboard />}>
-      <Route path="./MyData" element={<MyData />} />
-  </Route>
-  <Route path="about" element={<AboutPage />} />
-</Routes>
+      
 
 
     </div>
