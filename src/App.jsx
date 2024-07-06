@@ -5,7 +5,7 @@ import Header from './components/Header'
 import './App.css'
 
 import ShowCourse from './components/ShowCourse'
-import Axios from './components/Axiosget'
+import Currency from './components/Currency'
 import Quote from './components/Qoute'
 import MyForm from './components/MyForm'
 import MyData from './components/MyData'
@@ -14,13 +14,13 @@ import NotFoundPage from './components/NotFoundPage'
 function App() { 
 
   return (
-    <div>  
+    <div className='bodyContent'>  
       <Header/> 
         <Routes>
         <Route path="Qoute" element={<Quote/>}/>
         <Route path="MyData" element={<MyData />} /> 
         <Route path="MyForm" element={<MyForm/>} /> 
-        <Route path="Axios" element={<Axios/>} /> 
+        <Route path="Currency" element={<Currency/>} /> 
         <Route path="ShowCourse" element={<ShowCourse/>} /> 
         <Route path="*" element={<NotFoundPage/>} /> 
         </Routes>

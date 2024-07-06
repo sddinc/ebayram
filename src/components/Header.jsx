@@ -15,6 +15,7 @@ udemy courses
           <Link to="MyForm">MyForm</Link>
           <Link to="MyData">MyData</Link>
           <Link to="ShowCourse">Course</Link>
+          <Link to="Currency">Money</Link>
         </div>
     </div>
   )

@@ -1,0 +1,49 @@
+.content-currency{
+margin:0;
+padding: 0;
+height: 100vh;
+background-image:url('https://c8.alamy.com/comp/GJW6BT/profit-concept-calculator-on-euro-currency-background-with-business-GJW6BT.jpg');
+background-position: center;
+background-size: cover;
+border:1px solid black;
+
+}
+.currencyHeader{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  width: '100%';
+  background-color: black;
+  height: 10%;
+}
+.currency-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.amount{
+  width: 80px;
+  height: 25px;
+  margin-right: 10px;
+}
+.currency_result{
+  width: 80px;
+  height: 25px;
+  margin-right: 10px;
+}
+.currency-options{
+  width: 80px;
+  height: 25px; 
+  margin-right: 10px;
+}
+.exchangeButton{
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
